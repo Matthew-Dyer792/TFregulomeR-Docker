@@ -34,7 +34,7 @@ docker pull benoukraflab/tfregulomer
 ## Running the Docker Image
 To start a container using the TFregulomeR Docker image:
 ```
-sudo docker run --rm -ti -e PASSWORD=1234 -p 8787:8787 --mount type=bind,src=/home/mdyer/projects,target=/home/rstudio/Projects benoukraflab/tfregulomer:2.3.3
+sudo docker run --rm -ti -e PASSWORD=1234 -p 8787:8787 --mount type=bind,src=/home/USERNAME/projects,target=/home/rstudio/Projects benoukraflab/tfregulomer:2.3.3
 ```
 This command will start an RStudio server with TFregulomeR and forkedTF pre-installed.
 
